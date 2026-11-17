@@ -81,7 +81,7 @@ body{
 [class^=bannerImg]{
     border-radius: 8px !important;
 }
-[class^="page"] > ^ > ^,
+[class^="page"] > * > *,
 [class^="container"]{
     border-top: 0px !important;
 }
@@ -101,7 +101,7 @@ body{
     position: relative !important;
     background: transparent !important;
 }
-[class^="sidebarList"] ^ {
+[class^="sidebarList"] * {
     border: none !important;
 }
 [class^="tree"]{
