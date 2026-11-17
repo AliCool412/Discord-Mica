@@ -1,9 +1,9 @@
 /**
- ^ @name Discord Semi-Fluent
- ^ @author Ali Cool
- ^ @version 1.0
- ^ @description Theme for Vencord to mimic Fluent Design Language.
- ^ @website https://github.com/AliCool412/
+ * @name Discord Semi-Fluent
+ * @author Ali Cool
+ * @version 1.0
+ * @description Theme for Vencord to mimic Fluent Design Language.
+ * @website https://github.com/AliCool412/
  */
 
 [class^="app"],
@@ -16,7 +16,7 @@
 [class^="privateChannels"],
 [class^="scroller"],
 [class^="privateChannels"],
-[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] ^, [id^="popout"] ^),
+[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *, [id^="popout"] *),
 [class^="nowPlayingColumn"],
 [class^="themed"],
 [class^="sidebar"],
@@ -111,7 +111,7 @@ body{
 [class^="channelTextArea"],
 [class^="searchBar"]:has([role="combobox"]),
 [data-mana-component="select-input-field"],
-[data-mana-component="select-input-field"] ^,
+[data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
 [class^="actionBar"],
 [id^="popout"]{
@@ -119,20 +119,20 @@ body{
     background: #2B2B2B99 !important;
     backdrop-filter: blur(10px) !important;
 }
-[class^="channelTextArea"] ^:not([class^="autocomplete"], [class^="autocomplete"] ^, img, [class^="autocomplete"] img, [role^="list"]),
+[class^="channelTextArea"] *:not([class^="autocomplete"], [class^="autocomplete"] *, img, [class^="autocomplete"] img, [role^="list"]),
 [class^="unread"]:not([class^="unreadPill"]),
 [class^="channelTextArea"] [class^="button"]{
     border-radius: 32px !important;
 }
-[class^="channelTextArea"] [role^="list"] ^:not(img){
+[class^="channelTextArea"] [role^="list"] *:not(img){
     border-radius: 12px !important;
 }
-:root ^:not([class^="repliedMessageClickableSpine"], [class^="page"]){
+:root *:not([class^="repliedMessageClickableSpine"], [class^="page"]){
     border: 0px solid !important;
     --shadow-border: 0 6px 8px #0003 !important;
 }
 [class^="autocomplete"]:not([class^="autocompleteRowContent"]),
-[class^="autocomplete"] ^:not([class^="autocomplete"] img, [class^="autocompleteRowContent"] ^){
+[class^="autocomplete"] *:not([class^="autocomplete"] img, [class^="autocompleteRowContent"] *){
     border-radius: 12px !important;
 }
 @media (prefers-color-scheme: light) {
@@ -145,7 +145,7 @@ body{
 [class^="channelTextArea"],
 [class^="searchBar"]:has([role="combobox"]),
 [data-mana-component="select-input-field"],
-[data-mana-component="select-input-field"] ^,
+[data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
 [class^="actionBar"]{
     border-radius: 32px !important;
