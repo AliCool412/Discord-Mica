@@ -113,10 +113,8 @@ body{
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
-[class^="actionBar"],
-[id^="popout"],
-[class^="prompt"],
-[class^="channelRow"]{
+[class^="actionBar"]:not([class*="section"]),
+[id^="popout"]{
     border-radius: 32px !important;
     background: #2B2B2B99 !important;
     backdrop-filter: blur(10px) !important;
@@ -137,6 +135,11 @@ body{
 [class^="autocomplete"] *:not([class^="autocomplete"] img, [class^="autocompleteRowContent"] *){
     border-radius: 12px !important;
 }
+[class^="prompt"],
+[class^="channelRow"]{
+    border-radius: 8px !important;
+    background: #FFFFFF11 !important;
+}
 @media (prefers-color-scheme: light) {
 [class^="page"],
 [class^="itemCard"]{
@@ -149,9 +152,14 @@ body{
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
-[class^="actionBar"]{
+[class^="actionBar"],{
     border-radius: 32px !important;
     background: #EEEEEE99 !important;
     backdrop-filter: blur(10px) !important;
+}
+[class^="prompt"],
+[class^="channelRow"]{
+    border-radius: 8px !important;
+    background: #DDDDDD !important;
 }
 }
