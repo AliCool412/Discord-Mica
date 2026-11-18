@@ -62,9 +62,7 @@ body{
   --background-base-lower: transparent !important;
 }
 [class^="page"]:not([class^="pageBody"]),
-[class^="itemCard"],
-[class^="prompt"],
-[class^="channelRow"]{
+[class^="itemCard"]{
     background: #FFFFFF11 !important;
     border-radius: 8px !important;
     height: calc(100% - 8px) !important;
@@ -116,7 +114,9 @@ body{
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
 [class^="actionBar"],
-[id^="popout"]{
+[id^="popout"],
+[class^="prompt"],
+[class^="channelRow"]{
     border-radius: 32px !important;
     background: #2B2B2B99 !important;
     backdrop-filter: blur(10px) !important;
