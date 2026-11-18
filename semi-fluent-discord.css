@@ -61,8 +61,10 @@ body{
   background-color: transparent !important;
   --background-base-lower: transparent !important;
 }
-[class^="page"],
-[class^="itemCard"]{
+[class^="page"]:not([class^="pageBody"]),
+[class^="itemCard"],
+[class^="prompt"],
+[class^="channelRow"]{
     background: #FFFFFF11 !important;
     border-radius: 8px !important;
     height: calc(100% - 8px) !important;
