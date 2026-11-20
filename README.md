@@ -1,11 +1,11 @@
-# Discord Semi-Fluent
-Theme for Discord to Allow Mica Backdrop.
+# Discord Mica
+Theme for Discord to enable Mica Backdrop.
 
 ![Screenshot](screenshot.png)
 
 ## To Enable Transparency
 ### Requirements
-[BetterDiscord](https://betterdiscord.app/) with [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone) or [Vencord](https://vencord.dev/).
+[BetterDiscord](https://betterdiscord.app/) with [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone) (or [Traslucent Windows](https://windhawk.net/mods/translucent-windows) on Windhawk) or [Vencord](https://vencord.dev/).
 
 ### BetterDiscord
 1. Add `discord.exe` process to MicaForEveryone and set backdrop type to "Mica" (or any that you'd like).
@@ -17,11 +17,11 @@ Theme for Discord to Allow Mica Backdrop.
 
 ## To Apply Theme
 ### Local File
-1. Download [`fluent-discord.css`](https://github.com/AliCool412/Discord-Semi-Fluent/blob/main/fluent-discord.css) and copy/move it to your BetterDiscord/Vencord theme folder.
+1. Download [`fluent-discord.css`](https://github.com/AliCool412/Discord-Mica/blob/main/user.css) and copy/move it to your BetterDiscord/Vencord theme folder.
 2. Enable it from your respective theme settings.
 
 ### QuickCSS
-1. Go to  [`fluent-discord.css`](https://github.com/AliCool412/Discord-Semi-Fluent/blob/main/fluent-discord.css).
+1. Go to  [`fluent-discord.css`](https://github.com/AliCool412/Discord-Mica/blob/main/user.css).
 2. Copy raw file.
 3. Paste it in your QuickCSS editor.
 
@@ -29,7 +29,7 @@ Theme for Discord to Allow Mica Backdrop.
 Paste the following into the theme URLs section :
 
 ```
-https://raw.githubusercontent.com/AliCool412/Discord-Semi-Fluent/main/semi-fluent-discord.css
+https://raw.githubusercontent.com/AliCool412/Discord-Mica/main/user.css
 ```
 
 ## Light/Dark Mode Notice
