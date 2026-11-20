@@ -1,5 +1,5 @@
 # Discord Semi-Fluent
-Theme for Vencord to mimic Fluent Design Language.
+Theme for Discord to Allow Mica Backdrop.
 
 ![Screenshot](screenshot.png)
 
