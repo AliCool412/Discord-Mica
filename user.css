@@ -110,7 +110,6 @@ body{
 [class^="wrapper"]:has(> input),
 [class^="channelTextArea"],
 [class^="searchBar"]:has([role="combobox"]),
-[data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
 [class^="actionBar"]:not([class*="section"]),
