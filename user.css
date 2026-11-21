@@ -110,10 +110,10 @@ body{
 [class^="wrapper"]:has(> input),
 [class^="channelTextArea"],
 [class^="searchBar"]:has([role="combobox"]),
+[data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
-[class^="actionBar"]:not([class*="section"]),
-[id^="popout"]{
+[class^="actionBar"]:not([class*="section"]){
     border-radius: 32px !important;
     background: #2B2B2B99 !important;
     backdrop-filter: blur(10px) !important;
