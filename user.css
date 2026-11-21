@@ -45,7 +45,7 @@
 [class^="members"],
 [class^="title"],
 [role^="navigation"],
-[class^="itemcard"],
+[class^="itemcard"]
 [class^="theme-dark"],
 [class^="theme-darker"],
 [class^="theme-light"],
@@ -119,6 +119,7 @@ body{
 [class^="actionBar"]:not([class*="section"]){
     border-radius: 32px !important;
     background: #2B2B2B !important;
+    border: none !important;
 }
 [class^="channelTextArea"] *:not([class^="autocomplete"], [class^="autocomplete"] *, img, [class^="autocomplete"] img, [role^="list"]),
 [class^="unread"]:not([class^="unreadPill"]),
@@ -128,7 +129,7 @@ body{
 [class^="channelTextArea"] [role^="list"] *:not(img){
     border-radius: 12px !important;
 }
-:root *:not([class^="repliedMessageClickableSpine"], [class^="page"]){
+:root *:not([class^="repliedMessageClickableSpine"], [class^="page"], [class^="wrapper"]:has(> input), [class^="channelTextArea"], [class^="searchBar"]:has([role="combobox"]), [data-mana-component="select-input-field"], [data-mana-component="select-input-field"] *, [class^="stackedBars"], [class^="actionBar"]){
     border: 0px solid !important;
     --shadow-border: 0 6px 8px #0003 !important;
 }
@@ -156,6 +157,7 @@ body{
 [class^="actionBar"]{
     border-radius: 32px !important;
     background: #EEEEEE !important;
+    border: 1px solid #00000022 !important;
 }
 [class^="prompt"],
 [class^="channelRow"]{
