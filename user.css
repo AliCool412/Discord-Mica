@@ -68,6 +68,11 @@ body{
     height: calc(100% - 8px) !important;
     width: calc(100% - 8px) !important;
 }
+[id^="popout"]{
+    background: var(--background-surface-high) !important;
+    border-radius: 8px !important;
+    box-shadow: var(--shadow-border) !important;
+}
 [class^="sidebarList"] {
     border-inline-start: 0px !important;
     border-radius: 8px !important;
@@ -107,11 +112,9 @@ body{
 [class^="tree"]{
     margin-top: 8px !important;
 }
-[class^="wrapper"]:has(> input),
+[class^="wrapper"]:not([class*="selectField"]):has(> input),
 [class^="channelTextArea"],
 [class^="searchBar"]:has([role="combobox"]),
-[data-mana-component="select-input-field"],
-[data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
 [class^="actionBar"]:not([class*="section"]){
     border-radius: 32px !important;
@@ -134,8 +137,8 @@ body{
 [class^="autocomplete"] *:not([class^="autocomplete"] img, [class^="autocompleteRowContent"] *){
     border-radius: 12px !important;
 }
-[class^="prompt"],
-[class^="channelRow"]{
+[class^="prompt"]:not([class^="promptOptions"]),
+[class^="channelRow"] {
     border-radius: 8px !important;
     background: #FFFFFF11 !important;
 }
