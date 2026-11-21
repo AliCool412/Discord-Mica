@@ -118,8 +118,7 @@ body{
 [class^="stackedBars"],
 [class^="actionBar"]:not([class*="section"]){
     border-radius: 32px !important;
-    background: #2B2B2B99 !important;
-    backdrop-filter: blur(10px) !important;
+    background: #2B2B2B !important;
 }
 [class^="channelTextArea"] *:not([class^="autocomplete"], [class^="autocomplete"] *, img, [class^="autocomplete"] img, [role^="list"]),
 [class^="unread"]:not([class^="unreadPill"]),
@@ -156,8 +155,7 @@ body{
 [class^="stackedBars"],
 [class^="actionBar"]{
     border-radius: 32px !important;
-    background: #EEEEEE99 !important;
-    backdrop-filter: blur(10px) !important;
+    background: #EEEEEE !important;
 }
 [class^="prompt"],
 [class^="channelRow"]{
