@@ -139,7 +139,7 @@ body{
 }
 [class^="prompt"]:not([class^="promptOptions"]),
 [class^="channelRow"],
-[id^="message-accessories"] > *:not(:has([class^="wrapperAudio"]), [class^="visualMediaItemContainer"], [class^="stickerContainer"], [class^="reactions"]){
+[id^="message-accessories"] > *:not(:has([class^="wrapperAudio"]), [class^="visualMediaItemContainer"], [class^="stickerContainer"], [class^="reactions"], [class*="image"]){
     border-radius: 8px !important;
     background: #FFFFFF11 !important;
 }
@@ -167,10 +167,11 @@ body{
 }
 [class^="prompt"],
 [class^="channelRow"],
-[id^="message-accessories"] > *:not(:has([class^="wrapperAudio"]),s [class^="visualMediaItemContainer"], [class^="stickerContainer"], [class^="reactions"]){
+[id^="message-accessories"] > *:not(:has([class^="wrapperAudio"]), [class^="visualMediaItemContainer"], [class^="stickerContainer"], [class^="reactions"], [class*="image"]){
     border-radius: 8px !important;
     background: #DDDDDD !important;
 }
 }
+
 
 
