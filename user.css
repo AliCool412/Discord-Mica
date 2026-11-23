@@ -138,7 +138,8 @@ body{
     border-radius: 12px !important;
 }
 [class^="prompt"]:not([class^="promptOptions"]),
-[class^="channelRow"] {
+[class^="channelRow"],
+[id^="message-accessories"] > *{
     border-radius: 8px !important;
     background: #FFFFFF11 !important;
 }
@@ -160,7 +161,8 @@ body{
     border: 1px solid #00000022 !important;
 }
 [class^="prompt"],
-[class^="channelRow"]{
+[class^="channelRow"],
+[id^="message-accessories"] > *{
     border-radius: 8px !important;
     background: #DDDDDD !important;
 }
