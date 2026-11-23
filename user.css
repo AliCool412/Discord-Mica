@@ -16,12 +16,12 @@
 [class^="privateChannels"],
 [class^="scroller"],
 [class^="privateChannels"],
-[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *, [id^="popout"] *, [class*="fixClipping"], [class*="withAccentColor"]),
+[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *, [id^="popout"] *, [class*="fixClipping"], [class*="withAccentColor"],  [id="message-accessories] *),
 [class^="nowPlayingColumn"],
 [class^="themed"],
 [class^="sidebar"],
 [class^="sidebar"]:after,
-[class^="wrapper"]:not([class^="wrapper"]:has([class^="input"]), [class^="wrapperAudio"]),
+[class^="wrapper"]:not([class^="wrapper"]:has([class^="input"]), [class^="wrapperAudio"], [class*="clickable"], [id="message-accessories] *),
 [class^="visual-refresh"] [class^="clickable"],
 [class^="visual-refresh"] [class^="hasBanner"],
 [class^="header"],
@@ -62,7 +62,8 @@ body{
   --background-base-lower: transparent !important;
 }
 [class^="page"]:not([class^="pageBody"]),
-[class^="itemCard"]{
+[class^="itemCard"],
+[class*="clickable"]{
     background: #FFFFFF11 !important;
     border-radius: 8px !important;
     height: calc(100% - 8px) !important;
@@ -144,7 +145,8 @@ body{
 }
 @media (prefers-color-scheme: light) {
 [class^="page"],
-[class^="itemCard"]{
+[class^="itemCard"],
+[class*="clickable"]{
     border: 1px solid #00000022 !important;
 }
 
