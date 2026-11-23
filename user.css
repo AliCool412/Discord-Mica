@@ -143,6 +143,11 @@ body{
     border-radius: 8px !important;
     background: #FFFFFF11 !important;
 }
+[class^="newMessagesBar"]{
+    border-radius: 8px !important;
+    margin-top: 4px !important;
+}
+
 @media (prefers-color-scheme: light) {
 [class^="page"],
 [class^="itemCard"]{
@@ -167,4 +172,5 @@ body{
     background: #DDDDDD !important;
 }
 }
+
 
