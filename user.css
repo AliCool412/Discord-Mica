@@ -16,7 +16,7 @@
 [class^="privateChannels"],
 [class^="scroller"],
 [class^="privateChannels"],
-[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *, [id^="popout"] *, [class*="fixClipping"], [class*="withAccentColor"],  [id^="message-accessories"] *),
+[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *, [id^="popout"] *, [class*="fixClipping"], [class*="withAccentColor"],  [id^="message-accessories"] *, [class*="header"]),
 [class^="nowPlayingColumn"],
 [class^="themed"],
 [class^="sidebar"],
@@ -147,6 +147,13 @@ body{
     border-radius: 8px !important;
     margin-top: 4px !important;
     box-shadow: var(--shadow-border) !important;
+}
+
+[class*="header"]{
+    background: var(--brand-500) !important;
+    margin: 2px !important;
+    border-radius: 8px !important;
+    box-shadow: var(--shadow-border)
 }
 
 @media (prefers-color-scheme: light) {
