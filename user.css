@@ -149,7 +149,7 @@ body{
     box-shadow: var(--shadow-border) !important;
 }
 
-[class*="header"]{
+[class*="header"]:has(> [class*="reactButtons"]){
     background: var(--brand-500) !important;
     margin: 2px !important;
     border-radius: 8px !important;
