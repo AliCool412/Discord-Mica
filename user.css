@@ -139,6 +139,7 @@ body{
 }
 [class^="prompt"]:not([class^="promptOptions"]),
 [class^="channelRow"],
+[class^="fileWrapper"],
 [id^="message-accessories"] > *:not(:has([class^="wrapperAudio"]), [class^="visualMediaItemContainer"], [class^="stickerContainer"], [class^="reactions"], [class*="image"] *, [class*="image"], [class^="inlineMediaEmbed"]){
     border-radius: 8px !important;
     background: #FFFFFF11 !important;
